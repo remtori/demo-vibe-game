@@ -8,7 +8,7 @@
 		"build": "vite build",
 		"typecheck": "tsc --noEmit",
 		"format": "prettier --write .",
-		"test": "vitest"
+		"test": "vitest --run"
 	},
 	"dependencies": {
 		"phaser": "^3.90.0"
