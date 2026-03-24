@@ -44,8 +44,8 @@ Remember: You are capable of extraordinary creative work. Don't hold back, show 
 
 - In PLAN mode we will aggressively ask follow up and clarify question, make less assumption and ask the user more about the detail of the game.
 - When PLANING we should go into details and explorer possible problems or edge case we can encounter when making the game, then think about and explore possible solutions then choose one and note in down in the PLAN, we should PLAN everything so that when we do BUILD we just write code without the need of problem solving.
-- For the game logic write it separately and write unit test along side it (we using vitest, just run `bunx vitest --run`)
-- Always run `bunx tsgo --noEmit` and fix all issue after finish building.
+- For the game logic write it separately and write unit test along side it (we using vitest, just run `bun test`)
+- Always run `bun typecheck` and fix all issue after finish building.
 - DO NOT run dev server or build, if typecheck pass it will build.
 
 # Project
